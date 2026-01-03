@@ -1,10 +1,8 @@
-{{ define "main" }}
 {{ $m := site.Data.menu }}
 
 <section class="sm-section" aria-label="menu page">
   <h1 style="margin:0 0 18px 0;">{{ .Title }}</h1>
 
-  {{/* ===== Food ===== */}}
   {{ with $m.food }}
   <section class="sm-section" id="food-menu" aria-label="food menu">
     <h2 style="margin:0 0 12px 0;">{{ .title }}</h2>
@@ -31,7 +29,6 @@
   </section>
   {{ end }}
 
-  {{/* ===== Drinks ===== */}}
   {{ with $m.drinks }}
   <section class="sm-section" id="drinks-menu" aria-label="drinks menu">
     <h2 style="margin:0 0 12px 0;">{{ .title }}</h2>
@@ -57,16 +54,11 @@
     </div>
   </section>
   {{ end }}
-
 </section>
 
-{{/* fullscreen lightbox */}}
 <div class="sm-lightbox" id="sm-lightbox" aria-label="fullscreen menu viewer">
   <button class="sm-menu-arrow sm-menu-arrow-left sm-menu-arrow-fs" type="button" aria-label="previous page fullscreen" id="sm-fs-prev">‹</button>
   <img id="sm-lightbox-img" src="" alt="menu fullscreen page">
   <button class="sm-menu-arrow sm-menu-arrow-right sm-menu-arrow-fs" type="button" aria-label="next page fullscreen" id="sm-fs-next">›</button>
   <div class="sm-fs-indicator" id="sm-fs-indicator">page</div>
 </div>
-
-<script src="/js/menu.js" defer></script>
-{{ end }}

@@ -1,4 +1,4 @@
-<article class="legal-page">
+<article class="legal-page {{ with .Params.page_class }}{{ . }}{{ end }}">
   <div class="legal-content">
     <header class="legal-header">
       <h1>{{ .Title }}</h1>

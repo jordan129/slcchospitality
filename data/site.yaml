@@ -1,6 +1,28 @@
+# data/site.yaml
+
 brand:
   name: "Sushi Moka"
   logo: "/images/logo.jpg"
+  phone: "+44-203-336-3106"
+  streetAddress: "Ram Quarter, 24 Ryeland Blvd"
+  addressLocality: "London"
+  postalCode: "SW18 1UN"
+  addressCountry: "GB"
+  geo:
+    latitude: "51.4575"
+    longitude: "-0.1956"
+  social:
+    instagram: "https://www.instagram.com/sushimokauk/"
+    facebook: "https://www.facebook.com/sushimokauk/"
+  openingHours:
+    monday: "Closed"
+    tuesday: "12:00-15:00, 17:00-22:00"
+    wednesday: "12:00-15:00, 17:00-22:00"
+    thursday: "12:00-15:00, 17:00-22:00"
+    friday: "12:00-15:00, 17:00-22:00"
+    saturday: "12:00-22:00"
+    sunday: "12:00-21:00"
+  reservation_url: "https://web.dojo.app/create_booking/vendor/NPazRARQHh5GSHGYGmyseeNnpbOgrkI6aXaxJo81SF0_restaurant"
 
 links:
   reservation_url: "https://web.dojo.app/create_booking/vendor/NPazRARQHh5GSHGYGmyseeNnpbOgrkI6aXaxJo81SF0_restaurant"
@@ -26,7 +48,6 @@ contact:
   map_iframe_src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.0334273401113!2d-0.19299280000000002!3d51.4575427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f55ab7558e1%3A0xbd9d6c0d52c0f9a6!2sSushi%20Moka!5e0!3m2!1sen!2sus!4v1767019757854!5m2!1sen!2sus"
   map_height_home: 360
   map_height_page: 420
-
 
 announcement:
   enabled: true          # ✅ 一行开关：true/false

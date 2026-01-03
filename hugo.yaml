@@ -2,14 +2,20 @@ baseURL: "https://sushimoka.co.uk/"
 languageCode: "en-gb"
 title: "Sushi Moka"
 disableKinds: ["taxonomy", "term"]
-
-# 建议：餐厅站一般不需要 RSS
-outputs:
-  home: ["HTML", "SITEMAP"]
-  section: ["HTML"]
-  page: ["HTML"]
+enableRobotsTXT: true
 
 params:
+  phone: "0203 336 3106"
+  address: "Ram Quarter, 24 Ryeland Blvd, London SW18 1UN"
+  streetAddress: "Ram Quarter, 24 Ryeland Blvd"
+  addressLocality: "London"
+  postalCode: "SW18 1UN"
+  addressCountry: "GB"
+  hours: "Monday to Friday: 12:00-15:00 & 17:00-22:00, Saturday: 12:00-22:00, Sunday: 12:00-21:00"
   social:
     instagram: "https://www.instagram.com/sushimokauk/"
     facebook: "https://www.facebook.com/sushimokauk/"
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5

@@ -1,0 +1,100 @@
+{{- $brand := site.Data.site.brand.name | default site.Title -}}
+{{- $url := site.BaseURL | default .Site.BaseURL -}}
+{{- $logo := (site.Data.site.brand.logo | default "/images/logo.jpg") | absURL -}}
+
+{{- /* 基础联系信息：优先从 site.Data.site 取；没有就用 params；再没有就留空 */ -}}
+{{- $tel := site.Data.site.brand.phone | default (site.Params.phone | default "") -}}
+{{- $street := site.Data.site.brand.streetAddress | default (site.Params.streetAddress | default "Ram Quarter, 24 Ryeland Blvd") -}}
+{{- $locality := site.Data.site.brand.addressLocality | default (site.Params.addressLocality | default "London") -}}
+{{- $postal := site.Data.site.brand.postalCode | default (site.Params.postalCode | default "SW18 1UN") -}}
+{{- $country := site.Data.site.brand.addressCountry | default (site.Params.addressCountry | default "GB") -}}
+
+{{- $instagram := site.Params.social.instagram | default "" -}}
+{{- $facebook := site.Params.social.facebook | default "" -}}
+
+{{- /* 默认分享图：优先页面 og_image，其次全站 /images/og.jpg（若存在），否则不输出 image 字段 */ -}}
+{{- $og := "" -}}
+{{- with .Params.og_image -}}
+  {{- $og = . | absURL -}}
+{{- else -}}
+  {{- if (fileExists "static/images/og.jpg") -}}
+    {{- $og = "/images/og.jpg" | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ $url }}#organization",
+      "name": "{{ $brand }}",
+      "url": "{{ $url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ $logo }}"
+      },
+      "sameAs": [
+        {{- $first := true -}}
+        {{- if $instagram -}}{{- if not $first -}},{{- end -}}"{{ $instagram }}"{{- $first = false -}}{{- end -}}
+        {{- if $facebook -}}{{- if not $first -}},{{- end -}}"{{ $facebook }}"{{- $first = false -}}{{- end -}}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ $url }}#website",
+      "url": "{{ $url }}",
+      "name": "{{ $brand }}",
+      "publisher": { "@id": "{{ $url }}#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}#webpage",
+      "url": "{{ .Permalink }}",
+      "name": "{{ .Title }}",
+      "isPartOf": { "@id": "{{ $url }}#website" },
+      "about": { "@id": "{{ $url }}#organization" }{{ if $og }},
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "{{ $og }}"
+      }{{ end }}
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "{{ $url }}#restaurant",
+      "name": "{{ $brand }}",
+      "url": "{{ $url }}",
+      "telephone": "{{ $tel }}",
+      "servesCuisine": "Japanese",
+      "priceRange": "££",
+      "image": "{{ if $og }}{{ $og }}{{ else }}{{ $logo }}{{ end }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ $street }}",
+        "addressLocality": "{{ $locality }}",
+        "postalCode": "{{ $postal }}",
+        "addressCountry": "{{ $country }}",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "{{ site.Data.site.brand.geo.latitude | default "51.4725" }}",
+          "longitude": "{{ site.Data.site.brand.geo.longitude | default "-0.1882" }}"
+        }
+      },
+      "openingHours": [
+        {{- range $day, $time := site.Data.site.brand.openingHours }}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "{{ $day }}",
+          "hoursOperation": "{{ $time }}"
+        }{{- if not (eq $day "sunday") }} ,{{- end }}
+        {{- end }}
+      ],
+      "reservation": {
+        "@type": "Reservation",
+        "url": "{{ site.Data.site.brand.reservation_url }}"
+      }
+    }
+  ]
+}
+</script>
