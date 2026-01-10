@@ -1,25 +1,22 @@
 # data/site.yaml
 
 brand:
-  name: "The Golden Bund"
-  logo: "/images/logo.jpg"
+  name: "CMM Business"
+  logo: "/images/logo.png"
   phone: "0203 638 0559"
-  streetAddress: "139-151 Marylebone Road"
+  streetAddress: "12 John Prince's Street"
   addressLocality: "London"
-  postalCode: "NW1 5QE"
+  postalCode: ""
   addressCountry: "GB"
 
   geo:
-    latitude: "51.5210"
-    longitude: "-0.1651"
+    latitude: "51.5161"
+    longitude: "-0.1458"
 
   # social accounts (kept here for data completeness)
   social:
-    instagram: "https://thegoldenbund.co.uk/"
-    facebook: "https://thegoldenbund.co.uk/"
-
-  # reservation
-  reservation_url: "https://web.dojo.app/create_booking/vendor/sqsGd0gpxLucm1ofglwOIUzwrHfdJHPt1lpMzB9O0t8_restaurant"
+    instagram: "https://cmmbusiness.com/"
+    facebook: "https://cmmbusiness.com/"
 
   # -------------------------
   # opening hours
@@ -88,26 +85,18 @@ brand:
     saturday: "12:00-15:00, 17:00-22:00"
     sunday: "Closed"
 
-links:
-  reservation_url: "https://web.dojo.app/create_booking/vendor/sqsGd0gpxLucm1ofglwOIUzwrHfdJHPt1lpMzB9O0t8_restaurant"
-
 contact:
-  page_title: "Discover Our Culinary Experience"
-  section_title: "Discover Our Culinary Experience"
+  page_title: "Get In Touch to Improve Your Business Today"
+  section_title: "Get In Touch to Improve Your Business Today"
 
   left_title: "Contact us"
   address_lines:
-    - "139-151 Marylebone Road, London NW1 5QE"
-  phone: "+442036380559"
-  phone_display: "0203 638 0559"
-  email: "info@thegoldenbund.co.uk"
+    - "12 John Prince's Street, London, W1G 0JR"
+  phone: "+442074382026"
+  phone_display: "020 7438 2026"
+  email: "Info@cmmbusiness.com"
 
-  right_title: "Opening hours"
-  hours_lines:
-    - "Monday to Saturday: 12:00-15:00 & 17:00-22:00"
-    - "Sunday: Closed"
-
-  map_iframe_src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.574999329034!2d-0.1650573231203639!3d51.52101270970855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba7cd457935%3A0xca88f1539fe0e50b!2sThe%20Golden%20Bund!5e0!3m2!1sen!2sus!4v1767535629193!5m2!1sen!2sus"
+  map_iframe_src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8419085692644!2d-0.14575582312060448!3d51.5161163100662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad522cd50c7%3A0x588f7c71d0b42bdf!2sCMM%20BUSINESS!5e0!3m2!1szh-CN!2sus!4v1768053179562!5m2!1szh-CN!2sus"
   map_height_home: 360
   map_height_page: 420
 

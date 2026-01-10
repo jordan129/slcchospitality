@@ -1,41 +1,46 @@
 slider:
   images:
-    - /images/hero/1.jpg
-    - /images/hero/2.jpg
-    - /images/hero/3.png
-    - /images/hero/4.png
-    - /images/hero/5.jpg
+    - /images/hero/onlinee-merchandising.jpg
+    - /images/hero/event-planning.jpg
+    - /images/hero/showroom-design.jpg
+    - /images/hero/team.jpg
   interval_ms: 4000
 
 banner:
-  kicker: OMAKASE
-  title: "The Golden Bund: A Taste of Shanghai in London"
-  lead: "Experience the flavours of Shanghai at The Golden Bund, where every dish reflects a tradition of culinary refinement. A distinguished Shanghai-style restaurant in London, The Golden Bund has earned acclaim for its authentic flavours and meticulous craftsmanship. With an unwavering commitment to quality and authenticity, it is poised to become a must-visit destination for Chinese cuisine enthusiasts in the city."
+  title: "CMM Business, Specialists in Business Consultancy"
+  lead: "CMM Business offers a diverse portfolio of services, to promote the interests of your enterprise and ensure its continued and snowballing success. These cover three key and complementary specialisms: showroom design, online merchandising, and event planning."
   image: /images/hero2.png
 
-grid_image: /images/grid.jpg
+about_us:
+  title: "About Us"
+  image: "/images/business_consultancy.png"
+  paragraphs:
+    - "As a business consultancy company at the top of our game, CMM Business are proud to be showroom design, merchandising, and event planning specialists, who consistently deliver exceptional results for our many valued clients."
+    - "Using our extensive industry experience and combined talents, our team make it their mission to identify the unique needs of each of the companies that approach us, and ensure that these are met in full."
+    - "Results-driven, we are only satisfied when you are too, which is why we strongly believe in working together and taking your input on board every step of the way, to secure a successful outcome to our combined endeavour."
+    - "Committed to advancing the interests of your company through our efforts, we promise always to work hard, offer effective and innovative solutions, and deliver a service that you’re entirely happy with."
+    - "With plenty of satisfied clients to vouch for us, why not put your trust in us today?"
+
+clients:
+  title: "Our Clients"
+  paragraphs:
+    - "At CMM Business, we understand that clients are the backbone of any successful business, which is why we value ours so highly. Our primary focus is on promoting their causes and advancing their enterprises, so that they have the opportunity to grow and prosper with a little help from us."
+    - "Whatever their needs, we make it our mission to meet them. From showroom design to merchandising to event planning, we are masters of our art, and we believe that it’s only fair to use our skill and expertise to their advantage, which is why we do so each and every day."
+    - "With our previous clients having come from diverse business backgrounds, we have the necessary experience to help any and all companies with everything from retail enterprises to automotive and hospitality ventures, having benefited from our aid and assistance."
+    - "We could help you too. Treating each and every one of our clients as individuals, we take pains to identify and understand your unique needs, and will deliver a package perfectly tailored to you should you choose to approach us."
+    - "To learn more about what we could do for your company, simply get in touch with us today."
 
 recommended:
-  title: "Quality & Tasty Meals We Serve"
+  title: "Services We Offer"
   cards:
-    - image: "/images/dish1.png"
-      title: "Sweet and Sour Pork Ribs"
-      text: "Crispy pork ribs glazed in a classic sweet and sour sauce, balancing caramelized sugar, aged vinegar, and subtle soy notes for a rich yet refreshing finish."
+    - image: "/images/showroom-design.jpg"
+      title: "Showroom design"
+      text: "Whether or not you realise it, the appearance and running of your showroom can have an incredible impact on the attractiveness of your products to consumers. Properly outfitted, staffed and assembled, it will promote your brand and entice customers inside; when crafted with indifference, it's likely to attract neither positive nor profitable attention."
 
-    - image: "/images/dish2.png"
-      title: "Si Xi Braised Wheat Gluten"
-      text: "Enjoy tender slices of premium beef simmered in a savory broth alongside a medley of fresh vegetables, creating a truly unforgettable dining experience."
+    - image: "/images/onlinee-merchandising.jpg"
+      title: "Merchandising"
+      text: "Our experienced team have another string to add to their bow, merchandising. Helping with everything from the importation of goods to warehousing, creating an online shop, and digital marketing, we can transform your online presence to boost remote sales and bolster your profits. Want to see what it’s all about, you can find examples of our work on our client's website."
 
-    - image: "/images/dish3.png"
-      title: "Pork Belly & Bamboo Shoots"
-      text: "Slow-braised pork belly cooked with dried bamboo shoots from Tianmu Mountain, offering deep umami, tender meat, and a fragrant, comforting richness."
-
-    - image: "/images/dish4.png"
-      title: "Five-spice Smoked Fish"
-      text: "Crisp marinated fish lightly smoked and infused with Chinese five-spice, delivering a delicate balance of smokiness, sweetness, and aromatic warmth."
-
-two_images:
-  title: "Weekly Highlights"
-  images:
-    - "/images/two1.jpg"
-    - "/images/two2.jpg"
+    - image: "/images/event-planning.jpg"
+      title: "Event planning"
+      text: "To complement our other services, CMM Business also offers event planning. Experienced in handling tasks such as site selection, on-site management, registration, specialist website design, exhibit hall management, and event evaluation, we can take care of every aspect of the occasion for you, to ensure satisfied guests and a legacy that will benefit."

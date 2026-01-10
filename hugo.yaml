@@ -1,20 +1,20 @@
-baseURL: "https://thegoldenbund.co.uk/"
+baseURL: "https://cmmbusiness.com/"
 languageCode: "en-gb"
-title: "The Golden Bund"
+title: "CMM Business"
 disableKinds: ["taxonomy", "term"]
 enableRobotsTXT: true
 
 params:
-  phone: "0203 638 0559"
-  address: "139-151 Marylebone Road, London NW1 5QE"
-  streetAddress: "139-151 Marylebone Road"
+  phone: "020 7438 2026"
+  address: "12 John Prince's Street, London, W1G 0JR"
+  streetAddress: "12 John Prince's Street"
   addressLocality: "London"
-  postalCode: "NW1 5QE"
+  postalCode: "W1G 0JR"
   addressCountry: "GB"
-  hours: "Monday to Saturday: 12:00-15:00 & 17:00-22:00; Sunday: Closed"
+  hours: ""
   social:
-    instagram: "https://thegoldenbund.co.uk/"
-    facebook: "https://thegoldenbund.co.uk/"
+    instagram: "https://cmmbusiness.com/"
+    facebook: "https://cmmbusiness.com/"
 
 sitemap:
   changefreq: weekly

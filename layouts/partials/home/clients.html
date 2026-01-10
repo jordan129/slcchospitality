@@ -1,0 +1,14 @@
+{{- $h := site.Data.home -}}
+{{- with $h.clients -}}
+<section class="sm-section sm-clients">
+  <div class="sm-wrap">
+    <h2 class="sm-h2">{{ .title }}</h2>
+
+    {{- with .paragraphs -}}
+      {{- range . -}}
+        <p class="sm-p">{{ . }}</p>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

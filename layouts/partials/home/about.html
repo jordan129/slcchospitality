@@ -1,0 +1,20 @@
+{{- $h := site.Data.home -}}
+{{- with $h.about_us -}}
+<section class="sm-section sm-about">
+  <div class="sm-wrap sm-about-inner">
+    <div class="sm-about-media">
+      <img class="sm-about-img" src="{{ .image | relURL }}" alt="{{ .title }}">
+    </div>
+
+    <div class="sm-about-body">
+      <h2 class="sm-h2">{{ .title }}</h2>
+
+      {{- with .paragraphs -}}
+        {{- range . -}}
+          <p class="sm-p">{{ . }}</p>
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}
