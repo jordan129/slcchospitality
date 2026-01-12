@@ -1,20 +1,8 @@
-baseURL: "https://cmmbusiness.com/"
+baseURL: "https://vgalaxy.co.uk/"
 languageCode: "en-gb"
-title: "CMM Business"
+title: "Vgalaxy"
 disableKinds: ["taxonomy", "term"]
 enableRobotsTXT: true
-
-params:
-  phone: "02078465808"
-  address: "12 John Prince's Street, London, W1G 0JR"
-  streetAddress: "12 John Prince's Street"
-  addressLocality: "London"
-  postalCode: "W1G 0JR"
-  addressCountry: "GB"
-  hours: ""
-  social:
-    instagram: "https://cmmbusiness.com/"
-    facebook: "https://cmmbusiness.com/"
 
 sitemap:
   changefreq: weekly

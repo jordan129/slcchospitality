@@ -5,15 +5,6 @@
 {{- if eq $kind "legal" -}}
   {{ partial "page/legal.html" . }}
 
-{{- else if eq $kind "gallery" -}}
-  {{ partial "page/gallery.html" . }}
-
-{{- else if eq $kind "weekly_offer_terms" -}}
-  {{ partial "page/legal.html" . }}
-
-{{- else if eq $kind "services" -}}
-  {{ partial "page/services.html" . }}
-
 {{- else if eq $kind "contact" -}}
   {{ partial "page/contact.html" . }}
 

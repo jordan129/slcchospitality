@@ -1,46 +1,42 @@
 slider:
   images:
-    - /images/hero/onlinee-merchandising.jpg
-    - /images/hero/event-planning.jpg
-    - /images/hero/showroom-design.jpg
-    - /images/hero/team.jpg
+    - /images/hero/1.jpg
+    - /images/hero/2.jpg
+    - /images/hero/3.jpg
+    - /images/hero/4.jpg
   interval_ms: 4000
 
 banner:
-  title: "CMM Business, Specialists in Business Consultancy"
-  lead: "CMM Business offers a diverse portfolio of services, to promote the interests of your enterprise and ensure its continued and snowballing success. These cover three key and complementary specialisms: showroom design, online merchandising, and event planning."
+  title: "Vgalaxy Provides Full Range of EV Cables"
+  lead: "Vgalaxy is a leading provider of electric vehicle charging solutions. Our mission is to promote sustainable transportation by making it easy and convenient for EV owners to charge their vehicles. We offer a wide range of EV cables, including Level 1, Level 2, and Level 3, to suit the needs of any EV owner."
   image: /images/hero2.png
 
 about_us:
   title: "About Us"
-  image: "/images/business_consultancy.png"
+  image: "/images/about_us.jpg"
   paragraphs:
-    - "As a business consultancy company at the top of our game, CMM Business are proud to be showroom design, merchandising, and event planning specialists, who consistently deliver exceptional results for our many valued clients."
-    - "Using our extensive industry experience and combined talents, our team make it their mission to identify the unique needs of each of the companies that approach us, and ensure that these are met in full."
-    - "Results-driven, we are only satisfied when you are too, which is why we strongly believe in working together and taking your input on board every step of the way, to secure a successful outcome to our combined endeavour."
-    - "Committed to advancing the interests of your company through our efforts, we promise always to work hard, offer effective and innovative solutions, and deliver a service that you’re entirely happy with."
-    - "With plenty of satisfied clients to vouch for us, why not put your trust in us today?"
+    - "Vgalaxy is a provider of electric vehicle charging cable solutions, focused on supporting the growing demand for safe and reliable EV charging. We offer a full range of EV cables, including Type 1, Type 2, and CCS options, designed to be compatible with a wide variety of electric vehicles and charging infrastructures. Our products are developed with attention to performance, durability, and safety, ensuring consistent charging in everyday use."
+    - "We are committed to maintaining high product standards and clear communication with our customers. By combining carefully selected materials, rigorous quality control, and responsive customer support, Vgalaxy aims to provide practical charging solutions that EV owners can rely on with confidence."
 
 clients:
   title: "Our Clients"
   paragraphs:
-    - "At CMM Business, we understand that clients are the backbone of any successful business, which is why we value ours so highly. Our primary focus is on promoting their causes and advancing their enterprises, so that they have the opportunity to grow and prosper with a little help from us."
-    - "Whatever their needs, we make it our mission to meet them. From showroom design to merchandising to event planning, we are masters of our art, and we believe that it’s only fair to use our skill and expertise to their advantage, which is why we do so each and every day."
-    - "With our previous clients having come from diverse business backgrounds, we have the necessary experience to help any and all companies with everything from retail enterprises to automotive and hospitality ventures, having benefited from our aid and assistance."
-    - "We could help you too. Treating each and every one of our clients as individuals, we take pains to identify and understand your unique needs, and will deliver a package perfectly tailored to you should you choose to approach us."
-    - "To learn more about what we could do for your company, simply get in touch with us today."
+    - "At Vgalaxy, we work with a broad range of clients involved in electric mobility, including individual EV owners, fleet operators, installers, and businesses supporting the EV charging ecosystem. We understand that reliable charging equipment is essential to everyday operations, which is why we place strong emphasis on product quality, compatibility, and consistency."
+    - "Our EV charging cables are designed to support diverse use cases, from home and workplace charging to public and commercial environments. By offering Type 1, Type 2, and CCS solutions, we help our clients meet the charging requirements of different vehicle models and infrastructure standards with confidence."
+    - "We value long-term relationships built on trust, technical clarity, and dependable supply. Our experience working with clients across different sectors enables us to provide practical guidance and responsive support, ensuring that each customer can select the most appropriate charging solution for their needs."
+    - "Whether you are an individual EV owner or a business seeking dependable charging cable solutions, Vgalaxy is committed to supporting your transition to electric mobility with reliable products and professional service."
 
 recommended:
-  title: "Services We Offer"
+  title: "Products We Serve"
   cards:
-    - image: "/images/showroom-design.jpg"
-      title: "Showroom design"
-      text: "Whether or not you realise it, the appearance and running of your showroom can have an incredible impact on the attractiveness of your products to consumers. Properly outfitted, staffed and assembled, it will promote your brand and entice customers inside; when crafted with indifference, it's likely to attract neither positive nor profitable attention."
+    - image: "/images/1.jpg"
+      title: "Type 1 EV Cables"
+      text: "Suitable for Vauxhall Ampera, Ford Focus, Renault Fluence, Kia Soul, Citroen C-Zero, Mitsubishi I-MIEV, NIssan Leaf, Peugeot iOn, Toyota Prius, etc."
 
-    - image: "/images/onlinee-merchandising.jpg"
-      title: "Merchandising"
-      text: "Our experienced team have another string to add to their bow, merchandising. Helping with everything from the importation of goods to warehousing, creating an online shop, and digital marketing, we can transform your online presence to boost remote sales and bolster your profits. Want to see what it’s all about, you can find examples of our work on our client's website."
+    - image: "/images/2.jpg"
+      title: "Type 2 EV Cables"
+      text: "Suitable for Volkswagen, Audi, Smart, BMW, Hyundai, Jaguar, KIA, Volvo, Lucid Air, Mercedes, Mini, Porsche, Range Rover P400e, Renault, Tesla, Toyota, etc."
 
-    - image: "/images/event-planning.jpg"
-      title: "Event planning"
-      text: "To complement our other services, CMM Business also offers event planning. Experienced in handling tasks such as site selection, on-site management, registration, specialist website design, exhibit hall management, and event evaluation, we can take care of every aspect of the occasion for you, to ensure satisfied guests and a legacy that will benefit."
+    - image: "/images/3.jpg"
+      title: "CCS Combo"
+      text: "Suitable for rapid charging including Hyundai, Kia, BMW, Audi, Mercedes, MG, Jaguar, Mini, Peugeot, Vauxhall / Opel, Citroen, Nissan, Volkswagen, Tesla, etc."
