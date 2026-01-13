@@ -1,14 +1,14 @@
 # data/site.yaml
 
 brand:
-  name: "Vgalaxy"
+  name: "SLCC"
   logo: "/images/logo.png"
 
 contact:
-  page_title: "Get in Touch for Enquiries About EV Cables and Chargers!"
-  section_title: "Get in Touch for Enquiries About EV Cables and Chargers!"
-  left_title: "Contact us at info@vgalaxy.co.uk."
-  email: "Info@vgalaxy.co.uk"
+  page_title: "Ignite Excellence in Your Properties – Join the Future of Management!"
+  section_title: "Ignite Excellence in Your Properties – Join the Future of Management!"
+  left_title: "Contact us at info@slcchospitality.co.uk."
+  email: "info@slcchospitality.co.uk"
 
 announcement:
   enabled: true          # true / false

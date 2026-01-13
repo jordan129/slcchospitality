@@ -3,39 +3,41 @@ slider:
     - /images/hero/1.jpg
     - /images/hero/2.jpg
     - /images/hero/3.jpg
+    - /images/hero/4.png
+    - /images/hero/5.png
   interval_ms: 4000
 
 banner:
-  title: "Vgalaxy Provides Full Range of EV Cables"
-  lead: "Vgalaxy is a leading provider of electric vehicle charging solutions. Our mission is to promote sustainable transportation by making it easy and convenient for EV owners to charge their vehicles. We offer a wide range of EV cables, including Level 1, Level 2, and Level 3, to suit the needs of any EV owner."
+  title: "SLCC Hospitality – Redefining Property & Hospitality Management"
+  lead: "SLCC Hospitality delivers flexible letting, professional property management, and design-led space optimisation. By combining hospitality standards with data-driven strategies, we help property owners maximise returns while enjoying a truly hassle-free experience."
   image: /images/hero2.png
 
 about_us:
-  title: "About Us"
+  title: "About SLCC Hospitality"
   image: "/images/about_us.jpg"
   paragraphs:
-    - "Vgalaxy is a provider of electric vehicle charging cable solutions, focused on supporting the growing demand for safe and reliable EV charging. We offer a full range of EV cables, including Type 1, Type 2, and CCS options, designed to be compatible with a wide variety of electric vehicles and charging infrastructures. Our products are developed with attention to performance, durability, and safety, ensuring consistent charging in everyday use."
-    - "We are committed to maintaining high product standards and clear communication with our customers. By combining carefully selected materials, rigorous quality control, and responsive customer support, Vgalaxy aims to provide practical charging solutions that EV owners can rely on with confidence."
+    - "SLCC Hospitality is a specialist property and hospitality management company focused on unlocking the full commercial potential of residential and mixed-use properties. We provide end-to-end solutions across short-term, mid-term, and long-term lettings, ensuring strong financial performance while maintaining exceptional guest and tenant experiences."
+    - "More than a management service, SLCC Hospitality is a team of experienced professionals who tailor strategies to each property owner’s goals. By integrating market insight, operational expertise, and modern technology, we deliver a personalised, transparent, and results-driven approach to property ownership."
 
 clients:
   title: "Our Clients"
   paragraphs:
-    - "At Vgalaxy, we work with a broad range of clients involved in electric mobility, including individual EV owners, fleet operators, installers, and businesses supporting the EV charging ecosystem. We understand that reliable charging equipment is essential to everyday operations, which is why we place strong emphasis on product quality, compatibility, and consistency."
-    - "Our EV charging cables are designed to support diverse use cases, from home and workplace charging to public and commercial environments. By offering Type 1, Type 2, and CCS solutions, we help our clients meet the charging requirements of different vehicle models and infrastructure standards with confidence."
-    - "We value long-term relationships built on trust, technical clarity, and dependable supply. Our experience working with clients across different sectors enables us to provide practical guidance and responsive support, ensuring that each customer can select the most appropriate charging solution for their needs."
-    - "Whether you are an individual EV owner or a business seeking dependable charging cable solutions, Vgalaxy is committed to supporting your transition to electric mobility with reliable products and professional service."
+    - "SLCC Hospitality works with a diverse portfolio of property owners, investors, and developers seeking reliable, high-quality management solutions. Our clients value long-term performance, asset protection, and the confidence that their properties are managed to hospitality-grade standards."
+    - "From individual landlords to multi-property investors, we support a wide range of ownership models. Our flexible letting strategies and professional management systems are designed to adapt to changing market conditions while consistently maximising returns."
+    - "We prioritise long-term partnerships built on trust, clear communication, and measurable results. By understanding each client’s objectives, we deliver tailored solutions that align operational efficiency with commercial success."
+    - "Whether you own a single property or a growing portfolio, SLCC Hospitality is committed to helping you elevate your assets and achieve sustainable rental performance."
 
 recommended:
-  title: "Products We Serve"
+  title: "Our Services"
   cards:
-    - image: "/images/1.jpg"
-      title: "Type 1 EV Cables"
-      text: "Suitable for Vauxhall Ampera, Ford Focus, Renault Fluence, Kia Soul, Citroen C-Zero, Mitsubishi I-MIEV, NIssan Leaf, Peugeot iOn, Toyota Prius, etc."
+    - image: "/images/letting.jpg"
+      title: "Flexible Letting & Revenue Optimisation"
+      text: "Short-term, mid-term, and long-term rental solutions supported by dynamic pricing strategies and end-to-end operational management to maximise income and flexibility."
 
-    - image: "/images/2.jpg"
-      title: "Type 2 EV Cables"
-      text: "Suitable for Volkswagen, Audi, Smart, BMW, Hyundai, Jaguar, KIA, Volvo, Lucid Air, Mercedes, Mini, Porsche, Range Rover P400e, Renault, Tesla, Toyota, etc."
+    - image: "/images/management.jpg"
+      title: "Professional Property & Hospitality Management"
+      text: "Comprehensive management covering bookings, guest and tenant screening, 24-hour check-in, housekeeping, maintenance, and quality control for stress-free ownership."
 
-    - image: "/images/3.jpg"
-      title: "CCS Combo"
-      text: "Suitable for rapid charging including Hyundai, Kia, BMW, Audi, Mercedes, MG, Jaguar, Mini, Peugeot, Vauxhall / Opel, Citroen, Nissan, Volkswagen, Tesla, etc."
+    - image: "/images/design.jpg"
+      title: "Design, Build & Space Optimisation"
+      text: "Bespoke interior design and building services focused on enhancing usability, guest experience, and long-term asset value through design-led improvements."

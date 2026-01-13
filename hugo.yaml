@@ -1,6 +1,6 @@
-baseURL: "https://vgalaxy.co.uk/"
+baseURL: "https://slcchospitality.co.uk/"
 languageCode: "en-gb"
-title: "Vgalaxy"
+title: "SLCC"
 disableKinds: ["taxonomy", "term"]
 enableRobotsTXT: true
 

@@ -1,44 +1,44 @@
 ---
 page_kind: legal
-title: "Terms & Conditions | Vgalaxy"
-description: "Review Vgalaxy terms and conditions governing website use, product enquiries, liability, and applicable law in England and Wales."
+title: "Terms & Conditions | SLCC Hospitality"
+description: "Review SLCC Hospitality terms and conditions governing website use, service enquiries, liability, and applicable law in England and Wales."
 lastUpdated: "2026-01-12"
 ---
 
-These terms and conditions govern your use of the **Vgalaxy** website. By accessing or using this website, or by contacting us regarding electric vehicle cables or charging solutions, you agree to be bound by these terms.
+These terms and conditions govern your use of the **SLCC Hospitality** website. By accessing or using this website, or by contacting us regarding property management, letting, or hospitality services, you agree to be bound by these terms.
 
 ## About us
 
-**Vgalaxy**  
-Email: info@vgalaxy.co.uk  
+**SLCC Hospitality**  
+Email: info@slcchospitality.co.uk  
 
 ## Use of this website
 
-The content on this website is provided for general informational purposes only. It does not constitute technical, electrical, legal, or professional advice. Product information, compatibility descriptions, and other content may be updated or changed at any time without prior notice.
+The content on this website is provided for general informational purposes only. It does not constitute legal, financial, or professional advice. Service descriptions, offerings, or other content may be updated or changed at any time without prior notice.
 
 You agree to use this website only for lawful purposes and in a manner that does not infringe the rights of, restrict, or inhibit the use of this website by others.
 
-## Product information and enquiries
+## Service information and enquiries
 
-Information provided on this website regarding EV cables, chargers, compatibility, or related matters is intended to offer general guidance only. While we make reasonable efforts to ensure accuracy, we do not guarantee that all product descriptions, compatibility references, or technical details are complete, current, or error-free.
+Information provided on this website regarding property management, letting options, design services, or related matters is for general guidance only. While we strive for accuracy, we do not guarantee that all service descriptions or details are complete, current, or error-free.
 
-Any enquiries submitted through the website or by email must be accurate and complete to the best of your knowledge. Any supply of products, warranties, or commercial arrangements will be subject to separate terms agreed between you and Vgalaxy, which shall prevail in the event of any inconsistency with these terms.
+Any enquiries or requests submitted through the website must be accurate and complete to the best of your knowledge. Any specific service agreements, contracts, or commercial arrangements will be subject to separate terms agreed upon between you and SLCC Hospitality, which shall prevail in case of any inconsistency.
 
 ## No reliance
 
-You acknowledge that information on this website should not be relied upon as a substitute for professional advice or independent verification, including verification of vehicle compatibility, installation requirements, or applicable regulations. You use the information on this website at your own risk.
+You acknowledge that information on this website should not be relied upon as a substitute for professional advice. Decisions about property management, letting strategies, or design work should be based on independent advice or consultation. You use this information at your own risk.
 
 ## Intellectual property
 
-All content on this website, including text, images, graphics, logos, and layout, is owned by or licensed to Vgalaxy unless otherwise stated. You may view, download, and print content for personal, non-commercial use only. Any reproduction, distribution, or commercial use without prior written permission is prohibited.
+All content on this website, including text, images, graphics, logos, and layout, is owned by or licensed to SLCC Hospitality unless otherwise stated. You may view, download, and print content for personal, non-commercial use only. Any reproduction, distribution, or commercial use without prior written permission is prohibited.
 
 ## Third-party links
 
-This website may contain links to third-party websites or services for convenience or informational purposes. Vgalaxy has no control over, and accepts no responsibility for, the content, availability, or terms of use of such third-party websites. Accessing third-party websites is at your own risk.
+This website may contain links to third-party websites or services. SLCC Hospitality has no control over, and accepts no responsibility for, the content, availability, or terms of use of such third-party websites. Accessing third-party websites is at your own risk.
 
 ## Limitation of liability
 
-To the fullest extent permitted by law, Vgalaxy shall not be liable for any loss or damage, whether direct or indirect, arising out of or in connection with your use of, or inability to use, this website, or reliance on any content displayed on it.
+To the fullest extent permitted by law, SLCC Hospitality shall not be liable for any loss or damage, whether direct or indirect, arising out of or in connection with your use of, or inability to use, this website or reliance on any content displayed on it.
 
 Nothing in these terms excludes or limits liability that cannot be excluded under applicable law.
 
@@ -50,5 +50,5 @@ These terms and conditions are governed by the laws of **England and Wales**. An
 
 If you have any questions about these terms, please contact us at:
 
-**Vgalaxy**  
-info@vgalaxy.co.uk
+**SLCC Hospitality**  
+info@slcchospitality.co.uk
