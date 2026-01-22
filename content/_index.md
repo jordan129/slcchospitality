@@ -1,4 +1,4 @@
 ---
 title: "Vgalaxy | W1G"
-description: "The Golden Bund, a celebrated Shanghai-style restaurant in London, has been delighting customers with authentic Shanghai cuisine for past years."
+description: "SLCC Hospitality delivers flexible letting, professional property management, and design-led space optimisation."
 ---
